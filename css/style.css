@@ -344,13 +344,14 @@ template {
   background-color: white;
   position: -webkit-sticky;
   position: sticky;
+  border-bottom: 1px solid gray;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
 }
 
 .user {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -ms-flex-direction: row;
       flex-direction: row;
   background-color: white;
