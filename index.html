@@ -29,10 +29,38 @@
     <section class="content-general">
       <h2 class="general-title">GENERAL STATISTIC</h2>
       <div class="data">
-        <input type="text" value="18-11-2020" readonly>
-        <input class="refresher" id="theDate" type="date">
+        <div class="form-data">
+          <input type="text" value="18-11-2020" readonly>
+          <input class="refresher" id="theDate" type="date">
+        </div>
+        <a class="btn btn-refresher"><svg class="refresh"><use xlink:href="./images/icons/refresh.svg#Layer_1"></use></svg></a>
       </div>
-      <a class="btn btn-refresher"><svg class="refresh"><use xlink:href="./images/icons/refresh.svg#Layer_1"></use></svg></a>
+      <div class="section-wrapper">
+        <div class="section">
+          <div class="details">
+            <h3 class="detail-title">Visit signups</h3>
+            <p class="detail">124</p>
+          </div>
+          <div class="details">
+            <h3 class="detail-title">FTD</h3>
+            <p class="detail">445</p>
+          </div>
+        </div>
+        <div class="section">
+          <div class="details">
+            <h3 class="detail-title">Net deposit</h3>
+            <p class="detail">564</p>
+          </div>
+          <div class="details">
+            <h3 class="detail-title">Turn over</h3>
+            <p class="detail">432</p>
+          </div>
+        </div>
+      </div>
+      <div class="chart">
+        <h3>Earnings chart</h3>
+        <canvas id="myChart"></canvas>
+      </div>
     </section>
   </div>
 </body>
